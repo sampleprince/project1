@@ -1,0 +1,36 @@
+aside {
+    width: 200px;
+    position: fixed;
+    background: rgb(25, 84, 88);
+    height: 100%;
+    padding: 18px 0;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+}
+
+ul.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+ul>li a {
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.logo-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.logo-part a {
+    text-decoration: none;
+}

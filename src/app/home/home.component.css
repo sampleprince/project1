@@ -1,0 +1,48 @@
+header {
+    width: 100%;
+    margin-left: 0;
+}
+
+.logo-part {
+    float: left;
+    padding: 8px 0;
+}
+
+ul li a {
+    border-radius: 50px;
+    color: white;
+    background: aqua;
+    height: 20px;
+    width: 20px;
+}
+
+ul li a :hover {
+    border-radius: 50px;
+    color: white;
+    background: red;
+    height: 20px;
+    width: 20px;
+}
+
+.logo-part a {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul.navigation>li a {
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navigation li .home {
+    color: #47b2e4;
+}

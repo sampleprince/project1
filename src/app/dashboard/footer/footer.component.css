@@ -1,0 +1,38 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #133444;
+    max-width: 100%;
+    margin-left: 200px;
+    right: 0;
+    height: 100px;
+    bottom: 0;
+    position: fixed;
+    width: calc(100% - 200px);
+}
+
+.copyright {
+    color: #fff;
+    background-color: #37517f;
+}
+
+.copy {
+    float: left;
+    color: #fff;
+}
+
+.copy span {
+    color: black
+}
+
+.footer-right {
+    float: right;
+    margin-right: 30px;
+    color: #fff;
+}
+
+.footer-item span {
+    padding: 20px;
+    color: #fff;
+}

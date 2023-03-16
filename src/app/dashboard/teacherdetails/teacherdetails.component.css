@@ -1,0 +1,58 @@
+
+
+.teacher-Forms{
+  border: 1px solid red;
+  margin:20px auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+}
+.teacher-Forms h2{
+  text-align: center;
+  font-size: 48px;
+  margin-top: 30px;
+}
+form{
+margin: 20px;
+}
+label{
+  font-weight: bold;
+  padding: 10px;
+
+}
+input{
+  padding:10px
+}
+.btn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn1{
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: blue;
+  color:white;
+  border-radius: 10px;
+  border:blue;
+}
+
+.btn1:hover{
+  background-color: grey;
+}
+
+.col li{
+  list-style-type: none;
+  padding: 10px;
+}
+p i{
+border: none;
+font-size: 20px;
+color: red;
+cursor: pointer;
+}
+.model-body input{
+  width: 100%;
+  border:1px solid red
+}
